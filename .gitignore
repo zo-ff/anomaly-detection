@@ -17,3 +17,4 @@ env/
 # 5. OSが勝手に作るゴミファイル（MacのDS_StoreやWindowsのThumbs.db）
 .DS_Store
 Thumbs.db
+.csv
