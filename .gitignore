@@ -1,0 +1,19 @@
+# 1. Pythonが自動生成する一時キャッシュファイル（これらは不要なので除外）
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Jupyter Notebookのチェックポイント（自動保存される一時ファイル）
+.ipynb_checkpoints/
+
+# 3. 環境変数（秘密情報）を保存するファイル（もし今後使う場合）
+.env
+
+# 4. 仮想環境（ライブラリが入るフォルダ。重いのでアップロード禁止）
+venv/
+.venv/
+env/
+
+# 5. OSが勝手に作るゴミファイル（MacのDS_StoreやWindowsのThumbs.db）
+.DS_Store
+Thumbs.db
